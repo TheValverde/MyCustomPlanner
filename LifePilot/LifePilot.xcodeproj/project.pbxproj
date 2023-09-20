@@ -7,28 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		89D7EA082ABAC18500472DEB /* LifePilotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D7EA072ABAC18500472DEB /* LifePilotApp.swift */; };
-		89D7EA0A2ABAC18500472DEB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D7EA092ABAC18500472DEB /* ContentView.swift */; };
-		89D7EA0C2ABAC18700472DEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89D7EA0B2ABAC18700472DEB /* Assets.xcassets */; };
-		89D7EA0F2ABAC18700472DEB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89D7EA0E2ABAC18700472DEB /* Preview Assets.xcassets */; };
-		89D7EA112ABAC18700472DEB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D7EA102ABAC18700472DEB /* Persistence.swift */; };
-		89D7EA142ABAC18700472DEB /* LifePilot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 89D7EA122ABAC18700472DEB /* LifePilot.xcdatamodeld */; };
-		89D7EA1B2ABAC33300472DEB /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D7EA1A2ABAC33300472DEB /* WelcomeScreen.swift */; };
+		8995E8DA2ABAC5C800C07A92 /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8995E8D92ABAC5C800C07A92 /* WelcomeScreen.swift */; };
+		8995E8DC2ABAC5D900C07A92 /* MainDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8995E8DB2ABAC5D900C07A92 /* MainDashboard.swift */; };
+		8995E8DE2ABAC5E300C07A92 /* PlannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8995E8DD2ABAC5E300C07A92 /* PlannerView.swift */; };
+		8995E8E02ABAC5F400C07A92 /* TaskCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8995E8DF2ABAC5F400C07A92 /* TaskCreationView.swift */; };
+		8995E8E22ABAC60000C07A92 /* MoodInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8995E8E12ABAC60000C07A92 /* MoodInputView.swift */; };
+		8995E8E42ABAC60C00C07A92 /* DailySummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8995E8E32ABAC60C00C07A92 /* DailySummaryView.swift */; };
+		8995E8E62ABAC62500C07A92 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8995E8E52ABAC62500C07A92 /* SettingsView.swift */; };
+		8995E8E82ABAC63400C07A92 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8995E8E72ABAC63400C07A92 /* Task.swift */; };
+		8995E8EA2ABAC64100C07A92 /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8995E8E92ABAC64100C07A92 /* Mood.swift */; };
+		8995E8EC2ABAC65300C07A92 /* DaySummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8995E8EB2ABAC65300C07A92 /* DaySummary.swift */; };
+		8995E8EE2ABAC66300C07A92 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8995E8ED2ABAC66300C07A92 /* Extensions.swift */; };
+		8995E8F02ABAC66E00C07A92 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8995E8EF2ABAC66E00C07A92 /* Constants.swift */; };
+		89D7EA2B2ABAC50C00472DEB /* LifePilotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D7EA2A2ABAC50C00472DEB /* LifePilotApp.swift */; };
+		89D7EA2D2ABAC50C00472DEB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D7EA2C2ABAC50C00472DEB /* ContentView.swift */; };
+		89D7EA2F2ABAC50E00472DEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89D7EA2E2ABAC50E00472DEB /* Assets.xcassets */; };
+		89D7EA322ABAC50E00472DEB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89D7EA312ABAC50E00472DEB /* Preview Assets.xcassets */; };
+		89D7EA342ABAC50E00472DEB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D7EA332ABAC50E00472DEB /* Persistence.swift */; };
+		89D7EA372ABAC50E00472DEB /* LifePilot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 89D7EA352ABAC50E00472DEB /* LifePilot.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		89D7EA042ABAC18500472DEB /* LifePilot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifePilot.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		89D7EA072ABAC18500472DEB /* LifePilotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifePilotApp.swift; sourceTree = "<group>"; };
-		89D7EA092ABAC18500472DEB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		89D7EA0B2ABAC18700472DEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		89D7EA0E2ABAC18700472DEB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		89D7EA102ABAC18700472DEB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		89D7EA132ABAC18700472DEB /* LifePilot.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LifePilot.xcdatamodel; sourceTree = "<group>"; };
-		89D7EA1A2ABAC33300472DEB /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
+		8995E8D92ABAC5C800C07A92 /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
+		8995E8DB2ABAC5D900C07A92 /* MainDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDashboard.swift; sourceTree = "<group>"; };
+		8995E8DD2ABAC5E300C07A92 /* PlannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannerView.swift; sourceTree = "<group>"; };
+		8995E8DF2ABAC5F400C07A92 /* TaskCreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCreationView.swift; sourceTree = "<group>"; };
+		8995E8E12ABAC60000C07A92 /* MoodInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodInputView.swift; sourceTree = "<group>"; };
+		8995E8E32ABAC60C00C07A92 /* DailySummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailySummaryView.swift; sourceTree = "<group>"; };
+		8995E8E52ABAC62500C07A92 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		8995E8E72ABAC63400C07A92 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		8995E8E92ABAC64100C07A92 /* Mood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
+		8995E8EB2ABAC65300C07A92 /* DaySummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaySummary.swift; sourceTree = "<group>"; };
+		8995E8ED2ABAC66300C07A92 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8995E8EF2ABAC66E00C07A92 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		89D7EA272ABAC50C00472DEB /* LifePilot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifePilot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89D7EA2A2ABAC50C00472DEB /* LifePilotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifePilotApp.swift; sourceTree = "<group>"; };
+		89D7EA2C2ABAC50C00472DEB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		89D7EA2E2ABAC50E00472DEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89D7EA312ABAC50E00472DEB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		89D7EA332ABAC50E00472DEB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		89D7EA362ABAC50E00472DEB /* LifePilot.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LifePilot.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		89D7EA012ABAC18500472DEB /* Frameworks */ = {
+		89D7EA242ABAC50C00472DEB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,40 +60,107 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		89D7E9FB2ABAC18500472DEB = {
+		8995E8F12ABAC68000C07A92 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				89D7EA062ABAC18500472DEB /* LifePilot */,
-				89D7EA052ABAC18500472DEB /* Products */,
+				8995E8EF2ABAC66E00C07A92 /* Constants.swift */,
+				8995E8ED2ABAC66300C07A92 /* Extensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8995E8F22ABAC69100C07A92 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8995E8EB2ABAC65300C07A92 /* DaySummary.swift */,
+				8995E8E92ABAC64100C07A92 /* Mood.swift */,
+				8995E8E72ABAC63400C07A92 /* Task.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8995E8F32ABAC6A500C07A92 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8995E8F42ABAC6B800C07A92 /* Main */,
+				8995E8F62ABAC6F300C07A92 /* Planner */,
+				8995E8F72ABAC70D00C07A92 /* Summary */,
+				8995E8F52ABAC6E900C07A92 /* Settings */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8995E8F42ABAC6B800C07A92 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8995E8DB2ABAC5D900C07A92 /* MainDashboard.swift */,
+				8995E8D92ABAC5C800C07A92 /* WelcomeScreen.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8995E8F52ABAC6E900C07A92 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				8995E8E52ABAC62500C07A92 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		8995E8F62ABAC6F300C07A92 /* Planner */ = {
+			isa = PBXGroup;
+			children = (
+				8995E8E12ABAC60000C07A92 /* MoodInputView.swift */,
+				8995E8DF2ABAC5F400C07A92 /* TaskCreationView.swift */,
+				8995E8DD2ABAC5E300C07A92 /* PlannerView.swift */,
+			);
+			path = Planner;
+			sourceTree = "<group>";
+		};
+		8995E8F72ABAC70D00C07A92 /* Summary */ = {
+			isa = PBXGroup;
+			children = (
+				8995E8E32ABAC60C00C07A92 /* DailySummaryView.swift */,
+			);
+			path = Summary;
+			sourceTree = "<group>";
+		};
+		89D7EA1E2ABAC50C00472DEB = {
+			isa = PBXGroup;
+			children = (
+				89D7EA292ABAC50C00472DEB /* LifePilot */,
+				89D7EA282ABAC50C00472DEB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		89D7EA052ABAC18500472DEB /* Products */ = {
+		89D7EA282ABAC50C00472DEB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				89D7EA042ABAC18500472DEB /* LifePilot.app */,
+				89D7EA272ABAC50C00472DEB /* LifePilot.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		89D7EA062ABAC18500472DEB /* LifePilot */ = {
+		89D7EA292ABAC50C00472DEB /* LifePilot */ = {
 			isa = PBXGroup;
 			children = (
-				89D7EA072ABAC18500472DEB /* LifePilotApp.swift */,
-				89D7EA092ABAC18500472DEB /* ContentView.swift */,
-				89D7EA1A2ABAC33300472DEB /* WelcomeScreen.swift */,
-				89D7EA0B2ABAC18700472DEB /* Assets.xcassets */,
-				89D7EA102ABAC18700472DEB /* Persistence.swift */,
-				89D7EA122ABAC18700472DEB /* LifePilot.xcdatamodeld */,
-				89D7EA0D2ABAC18700472DEB /* Preview Content */,
+				8995E8F12ABAC68000C07A92 /* Utils */,
+				8995E8F22ABAC69100C07A92 /* Models */,
+				8995E8F32ABAC6A500C07A92 /* Views */,
+				89D7EA2A2ABAC50C00472DEB /* LifePilotApp.swift */,
+				89D7EA2C2ABAC50C00472DEB /* ContentView.swift */,
+				89D7EA2E2ABAC50E00472DEB /* Assets.xcassets */,
+				89D7EA332ABAC50E00472DEB /* Persistence.swift */,
+				89D7EA352ABAC50E00472DEB /* LifePilot.xcdatamodeld */,
+				89D7EA302ABAC50E00472DEB /* Preview Content */,
 			);
 			path = LifePilot;
 			sourceTree = "<group>";
 		};
-		89D7EA0D2ABAC18700472DEB /* Preview Content */ = {
+		89D7EA302ABAC50E00472DEB /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				89D7EA0E2ABAC18700472DEB /* Preview Assets.xcassets */,
+				89D7EA312ABAC50E00472DEB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -79,13 +168,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		89D7EA032ABAC18500472DEB /* LifePilot */ = {
+		89D7EA262ABAC50C00472DEB /* LifePilot */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 89D7EA172ABAC18700472DEB /* Build configuration list for PBXNativeTarget "LifePilot" */;
+			buildConfigurationList = 89D7EA3A2ABAC50E00472DEB /* Build configuration list for PBXNativeTarget "LifePilot" */;
 			buildPhases = (
-				89D7EA002ABAC18500472DEB /* Sources */,
-				89D7EA012ABAC18500472DEB /* Frameworks */,
-				89D7EA022ABAC18500472DEB /* Resources */,
+				89D7EA232ABAC50C00472DEB /* Sources */,
+				89D7EA242ABAC50C00472DEB /* Frameworks */,
+				89D7EA252ABAC50C00472DEB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -93,25 +182,25 @@
 			);
 			name = LifePilot;
 			productName = LifePilot;
-			productReference = 89D7EA042ABAC18500472DEB /* LifePilot.app */;
+			productReference = 89D7EA272ABAC50C00472DEB /* LifePilot.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		89D7E9FC2ABAC18500472DEB /* Project object */ = {
+		89D7EA1F2ABAC50C00472DEB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					89D7EA032ABAC18500472DEB = {
+					89D7EA262ABAC50C00472DEB = {
 						CreatedOnToolsVersion = 14.3;
 					};
 				};
 			};
-			buildConfigurationList = 89D7E9FF2ABAC18500472DEB /* Build configuration list for PBXProject "LifePilot" */;
+			buildConfigurationList = 89D7EA222ABAC50C00472DEB /* Build configuration list for PBXProject "LifePilot" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,45 +208,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 89D7E9FB2ABAC18500472DEB;
-			productRefGroup = 89D7EA052ABAC18500472DEB /* Products */;
+			mainGroup = 89D7EA1E2ABAC50C00472DEB;
+			productRefGroup = 89D7EA282ABAC50C00472DEB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				89D7EA032ABAC18500472DEB /* LifePilot */,
+				89D7EA262ABAC50C00472DEB /* LifePilot */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		89D7EA022ABAC18500472DEB /* Resources */ = {
+		89D7EA252ABAC50C00472DEB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89D7EA0F2ABAC18700472DEB /* Preview Assets.xcassets in Resources */,
-				89D7EA0C2ABAC18700472DEB /* Assets.xcassets in Resources */,
+				89D7EA322ABAC50E00472DEB /* Preview Assets.xcassets in Resources */,
+				89D7EA2F2ABAC50E00472DEB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		89D7EA002ABAC18500472DEB /* Sources */ = {
+		89D7EA232ABAC50C00472DEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89D7EA112ABAC18700472DEB /* Persistence.swift in Sources */,
-				89D7EA0A2ABAC18500472DEB /* ContentView.swift in Sources */,
-				89D7EA1B2ABAC33300472DEB /* WelcomeScreen.swift in Sources */,
-				89D7EA142ABAC18700472DEB /* LifePilot.xcdatamodeld in Sources */,
-				89D7EA082ABAC18500472DEB /* LifePilotApp.swift in Sources */,
+				89D7EA342ABAC50E00472DEB /* Persistence.swift in Sources */,
+				89D7EA2D2ABAC50C00472DEB /* ContentView.swift in Sources */,
+				8995E8DA2ABAC5C800C07A92 /* WelcomeScreen.swift in Sources */,
+				8995E8EC2ABAC65300C07A92 /* DaySummary.swift in Sources */,
+				8995E8E42ABAC60C00C07A92 /* DailySummaryView.swift in Sources */,
+				8995E8E82ABAC63400C07A92 /* Task.swift in Sources */,
+				8995E8EA2ABAC64100C07A92 /* Mood.swift in Sources */,
+				8995E8F02ABAC66E00C07A92 /* Constants.swift in Sources */,
+				8995E8DC2ABAC5D900C07A92 /* MainDashboard.swift in Sources */,
+				8995E8E02ABAC5F400C07A92 /* TaskCreationView.swift in Sources */,
+				89D7EA372ABAC50E00472DEB /* LifePilot.xcdatamodeld in Sources */,
+				8995E8EE2ABAC66300C07A92 /* Extensions.swift in Sources */,
+				8995E8E22ABAC60000C07A92 /* MoodInputView.swift in Sources */,
+				89D7EA2B2ABAC50C00472DEB /* LifePilotApp.swift in Sources */,
+				8995E8DE2ABAC5E300C07A92 /* PlannerView.swift in Sources */,
+				8995E8E62ABAC62500C07A92 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		89D7EA152ABAC18700472DEB /* Debug */ = {
+		89D7EA382ABAC50E00472DEB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -217,7 +317,7 @@
 			};
 			name = Debug;
 		};
-		89D7EA162ABAC18700472DEB /* Release */ = {
+		89D7EA392ABAC50E00472DEB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -271,7 +371,7 @@
 			};
 			name = Release;
 		};
-		89D7EA182ABAC18700472DEB /* Debug */ = {
+		89D7EA3B2ABAC50E00472DEB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -300,7 +400,7 @@
 			};
 			name = Debug;
 		};
-		89D7EA192ABAC18700472DEB /* Release */ = {
+		89D7EA3C2ABAC50E00472DEB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -332,20 +432,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		89D7E9FF2ABAC18500472DEB /* Build configuration list for PBXProject "LifePilot" */ = {
+		89D7EA222ABAC50C00472DEB /* Build configuration list for PBXProject "LifePilot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				89D7EA152ABAC18700472DEB /* Debug */,
-				89D7EA162ABAC18700472DEB /* Release */,
+				89D7EA382ABAC50E00472DEB /* Debug */,
+				89D7EA392ABAC50E00472DEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		89D7EA172ABAC18700472DEB /* Build configuration list for PBXNativeTarget "LifePilot" */ = {
+		89D7EA3A2ABAC50E00472DEB /* Build configuration list for PBXNativeTarget "LifePilot" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				89D7EA182ABAC18700472DEB /* Debug */,
-				89D7EA192ABAC18700472DEB /* Release */,
+				89D7EA3B2ABAC50E00472DEB /* Debug */,
+				89D7EA3C2ABAC50E00472DEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -353,17 +453,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		89D7EA122ABAC18700472DEB /* LifePilot.xcdatamodeld */ = {
+		89D7EA352ABAC50E00472DEB /* LifePilot.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				89D7EA132ABAC18700472DEB /* LifePilot.xcdatamodel */,
+				89D7EA362ABAC50E00472DEB /* LifePilot.xcdatamodel */,
 			);
-			currentVersion = 89D7EA132ABAC18700472DEB /* LifePilot.xcdatamodel */;
+			currentVersion = 89D7EA362ABAC50E00472DEB /* LifePilot.xcdatamodel */;
 			path = LifePilot.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 89D7E9FC2ABAC18500472DEB /* Project object */;
+	rootObject = 89D7EA1F2ABAC50C00472DEB /* Project object */;
 }
