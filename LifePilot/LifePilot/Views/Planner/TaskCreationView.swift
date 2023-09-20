@@ -14,6 +14,7 @@ struct TaskCreationView: View {
     @State private var taskDescription: String = ""
     @State private var taskTime = Date()
     @State private var taskDuration = TimeInterval(3600) // Default to 1 hour
+    @State private var selectedTaskType = TaskType.general
 
     var body: some View {
         VStack {
@@ -23,8 +24,11 @@ struct TaskCreationView: View {
                 .padding()
             DatePicker("Time", selection: $taskTime, displayedComponents: .hourAndMinute)
                 .datePickerStyle(GraphicalDatePickerStyle())
-            // Add a picker or a slider for the duration
-            // Here I'm using a Picker as an example
+            Picker("Task Type", selection: $selectedTaskType) {
+                ForEach(TaskType.allCases, id: \.self) { taskType in
+                    Text(taskType.rawValue.capitalized).tag(taskType)
+                }
+            }
             Picker("Duration", selection: $taskDuration) {
                 Text("1 minute").tag(TimeInterval(60))
                 Text("5 minutes").tag(TimeInterval(300))
@@ -34,11 +38,13 @@ struct TaskCreationView: View {
                 Text("1 hour").tag(TimeInterval(3600))
                 Text("2 hours").tag(TimeInterval(7200))
             }
+            .disabled(selectedTaskType != .general) // Disable if the selected type is not "general"
+            
             Button("Save Task") {
                 if taskName.isEmpty || taskDescription.isEmpty {
                     print("All fields are required.")
                 } else {
-                    let newTask = Task(name: taskName, description: taskDescription, date: selectedDate, time: taskTime, duration: taskDuration)
+                    let newTask = Task(name: taskName, description: taskDescription, date: selectedDate, time: taskTime, duration: taskDuration, type: selectedTaskType)
                     tasks.append(newTask)
                 }
             }
@@ -48,5 +54,4 @@ struct TaskCreationView: View {
         }
     }
 }
-
 
