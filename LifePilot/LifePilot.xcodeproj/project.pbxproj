@@ -20,7 +20,6 @@
 		8995E8EE2ABAC66300C07A92 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8995E8ED2ABAC66300C07A92 /* Extensions.swift */; };
 		8995E8F02ABAC66E00C07A92 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8995E8EF2ABAC66E00C07A92 /* Constants.swift */; };
 		89D7EA2B2ABAC50C00472DEB /* LifePilotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D7EA2A2ABAC50C00472DEB /* LifePilotApp.swift */; };
-		89D7EA2D2ABAC50C00472DEB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D7EA2C2ABAC50C00472DEB /* ContentView.swift */; };
 		89D7EA2F2ABAC50E00472DEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89D7EA2E2ABAC50E00472DEB /* Assets.xcassets */; };
 		89D7EA322ABAC50E00472DEB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89D7EA312ABAC50E00472DEB /* Preview Assets.xcassets */; };
 		89D7EA342ABAC50E00472DEB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D7EA332ABAC50E00472DEB /* Persistence.swift */; };
@@ -42,7 +41,6 @@
 		8995E8EF2ABAC66E00C07A92 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		89D7EA272ABAC50C00472DEB /* LifePilot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifePilot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89D7EA2A2ABAC50C00472DEB /* LifePilotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifePilotApp.swift; sourceTree = "<group>"; };
-		89D7EA2C2ABAC50C00472DEB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		89D7EA2E2ABAC50E00472DEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89D7EA312ABAC50E00472DEB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		89D7EA332ABAC50E00472DEB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -72,9 +70,9 @@
 		8995E8F22ABAC69100C07A92 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				8995E8EB2ABAC65300C07A92 /* DaySummary.swift */,
-				8995E8E92ABAC64100C07A92 /* Mood.swift */,
 				8995E8E72ABAC63400C07A92 /* Task.swift */,
+				8995E8E92ABAC64100C07A92 /* Mood.swift */,
+				8995E8EB2ABAC65300C07A92 /* DaySummary.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -110,9 +108,9 @@
 		8995E8F62ABAC6F300C07A92 /* Planner */ = {
 			isa = PBXGroup;
 			children = (
-				8995E8E12ABAC60000C07A92 /* MoodInputView.swift */,
-				8995E8DF2ABAC5F400C07A92 /* TaskCreationView.swift */,
 				8995E8DD2ABAC5E300C07A92 /* PlannerView.swift */,
+				8995E8DF2ABAC5F400C07A92 /* TaskCreationView.swift */,
+				8995E8E12ABAC60000C07A92 /* MoodInputView.swift */,
 			);
 			path = Planner;
 			sourceTree = "<group>";
@@ -144,11 +142,10 @@
 		89D7EA292ABAC50C00472DEB /* LifePilot */ = {
 			isa = PBXGroup;
 			children = (
-				8995E8F12ABAC68000C07A92 /* Utils */,
-				8995E8F22ABAC69100C07A92 /* Models */,
 				8995E8F32ABAC6A500C07A92 /* Views */,
+				8995E8F22ABAC69100C07A92 /* Models */,
+				8995E8F12ABAC68000C07A92 /* Utils */,
 				89D7EA2A2ABAC50C00472DEB /* LifePilotApp.swift */,
-				89D7EA2C2ABAC50C00472DEB /* ContentView.swift */,
 				89D7EA2E2ABAC50E00472DEB /* Assets.xcassets */,
 				89D7EA332ABAC50E00472DEB /* Persistence.swift */,
 				89D7EA352ABAC50E00472DEB /* LifePilot.xcdatamodeld */,
@@ -236,7 +233,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				89D7EA342ABAC50E00472DEB /* Persistence.swift in Sources */,
-				89D7EA2D2ABAC50C00472DEB /* ContentView.swift in Sources */,
 				8995E8DA2ABAC5C800C07A92 /* WelcomeScreen.swift in Sources */,
 				8995E8EC2ABAC65300C07A92 /* DaySummary.swift in Sources */,
 				8995E8E42ABAC60C00C07A92 /* DailySummaryView.swift in Sources */,

@@ -9,7 +9,19 @@ import SwiftUI
 
 struct WelcomeScreen: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(spacing: 20) {
+            Text("Welcome to MyADHDApp")
+                .font(.largeTitle)
+            Text("A planner and mood tracker tailored for you.")
+                .font(.body)
+            NavigationLink(destination: MainDashboard()) {
+                Text("Get Started")
+                    .foregroundColor(.white)
+                    .padding()
+                    .background(Color.blue)
+                    .cornerRadius(10)
+            }
+        }
     }
 }
 
